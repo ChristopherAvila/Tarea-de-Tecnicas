@@ -21,5 +21,14 @@ public class Figuras {
         JOptionPane.showMessageDialog(null, "El area del triangulo es :"+area);
         
     }
+       public void circulo(){
+     double circunferencia,radio,area;
+     double pi=3.14;
+        circunferencia = Integer.parseInt(JOptionPane.showInputDialog("Digite la circunferencia del circulo"));
+        radio=(circunferencia*pi)/2;
+        area=(pi*Math.pow(radio,radio))/2;
+        JOptionPane.showMessageDialog(null, "El area del circulo  es :"+area);
+        
+    }
 
 }

@@ -15,6 +15,7 @@ public class principal {
    Figuras datos =new Figuras();
    datos.cuadrado();
    datos.triangulo();
+   datos.circulo();
    } 
           
     
