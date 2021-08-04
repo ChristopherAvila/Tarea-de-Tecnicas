@@ -16,6 +16,7 @@ public class principal {
    datos.cuadrado();
    datos.triangulo();
    datos.circulo();
+    datos.rectangulo();
    } 
           
     
